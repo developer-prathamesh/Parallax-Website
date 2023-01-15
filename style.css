@@ -84,3 +84,28 @@ h2{
     color:#f4f4f4;
 
 }
+
+@media (min-width: 350px){
+    .pimage1,.pimage2,.pimage3{
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        transition: all 0.2s ease-in-out;
+    }
+    .ptext{
+        font-size: 17px;
+        letter-spacing: 3px;
+        text-transform: uppercase;   
+    }
+    .section{
+        padding: 20px;
+        text-align: center;
+        font-size: 12px;
+        
+        
+    }
+
+    
+}
